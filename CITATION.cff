@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the implementation."
+type: software
+title: "PHMProject-n2: Industrial Liquid-Level Segmentation via Local Scale Selection and Structured Hypercomplex Fusion"
+authors:
+  - family-names: Gao
+    given-names: Mingyang
+  - family-names: Zheng
+    given-names: Zhiheng
+  - family-names: Dai
+    given-names: Wenzhu
+  - family-names: Wang
+    given-names: Leiquan
+abstract: "Research implementation for industrial liquid-region segmentation with local scale selection and structured hypercomplex fusion."
+license: MIT
+repository-code: "https://github.com/ColdneonG/PHMProject-n2"

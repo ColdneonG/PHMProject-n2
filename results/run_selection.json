@@ -1,0 +1,112 @@
+{
+  "main": [
+    "exo004_deeplabv3plus_resnet18_pretrained_seed3407_20260728_075540",
+    "exo004_localsk_conv_resnet18_pretrained_seed3407_20260728_084353",
+    "exo004_localsk_hc_global_conv_resnet18_pretrained_seed3407_20260728_091447",
+    "exo004_localsk_hc_resnet18_pretrained_seed3407_20260728_085805",
+    "exo004_phm_project_n2_seed3407_20260728_093204",
+    "exo004_pspnet_resnet18_pretrained_seed3407_20260728_083303",
+    "exo004_segformer_b0_pretrained_seed3407_20260728_081006",
+    "exo005_deeplabv3plus_resnet18_pretrained_seed2026_20260728_100942",
+    "exo005_localsk_conv_resnet18_pretrained_seed2026_20260728_105737",
+    "exo005_localsk_hc_global_conv_resnet18_pretrained_seed2026_20260728_112847",
+    "exo005_localsk_hc_resnet18_pretrained_seed2026_20260728_111208",
+    "exo005_phm_project_n2_seed2026_20260728_114606",
+    "exo005_pspnet_resnet18_pretrained_seed2026_20260728_104700",
+    "exo005_segformer_b0_pretrained_seed2026_20260728_102407",
+    "exo005_unet_resnet18_pretrained_seed2026_20260728_095531",
+    "exp003_deeplabv3plus_resnet18_pretrained_seed42_20260727_163801",
+    "exp003_localsk_conv_resnet18_pretrained_seed42_20260727_172543",
+    "exp003_localsk_hc_global_conv_resnet18_pretrained_seed42_20260728_054404",
+    "exp003_localsk_hc_resnet18_pretrained_seed42_20260728_052708",
+    "exp003_phm_project_n2_seed42_20260728_060104",
+    "exp003_pspnet_resnet18_pretrained_seed42_20260727_171504",
+    "exp003_segformer_b0_pretrained_seed42_20260727_165232",
+    "exp003_unet_resnet18_pretrained_seed42_20260727_162331",
+    "exp004_unet_resnet18_pretrained_seed3407_20260728_074126",
+    "exp006_pidnet_s_seed2026_20260803_102448",
+    "exp006_pidnet_s_seed3407_20260803_090216",
+    "exp006_pidnet_s_seed42_20260803_083718"
+  ],
+  "supplementary": [
+    "supp_anchor_a3_localsk_hc_global_conv_resnet18_pretrained_seed2026_20260901_150112",
+    "supp_anchor_a3_localsk_hc_global_conv_resnet18_pretrained_seed3407_20260901_142236",
+    "supp_anchor_a3_localsk_hc_global_conv_resnet18_pretrained_seed42_20260901_134424",
+    "supp_anchor_a4_phm_project_n2_seed2026_20260901_151959",
+    "supp_anchor_a4_phm_project_n2_seed3407_20260901_144139",
+    "supp_anchor_a4_phm_project_n2_seed42_20260901_140313",
+    "supp_p0_1_a0_matched_a0_standard_aspp_resnet18_pretrained_seed2026_20260901_165106",
+    "supp_p0_1_a0_matched_a0_standard_aspp_resnet18_pretrained_seed3407_20260901_161519",
+    "supp_p0_1_a0_matched_a0_standard_aspp_resnet18_pretrained_seed42_20260901_153922",
+    "supp_p0_2_ginsk_localsk_hc_global_insk_conv_resnet18_pretrained_seed2026_20260901_170755",
+    "supp_p0_2_ginsk_localsk_hc_global_insk_conv_resnet18_pretrained_seed3407_20260901_163157",
+    "supp_p0_2_ginsk_localsk_hc_global_insk_conv_resnet18_pretrained_seed42_20260901_155557",
+    "supp_p1_1_concat_concat_hc_global_conv_resnet18_pretrained_seed2026_20260901_192006",
+    "supp_p1_1_concat_concat_hc_global_conv_resnet18_pretrained_seed3407_20260901_182338",
+    "supp_p1_1_concat_concat_hc_global_conv_resnet18_pretrained_seed42_20260901_172702",
+    "supp_p1_1_mean_mean_hc_global_conv_resnet18_pretrained_seed2026_20260901_193857",
+    "supp_p1_1_mean_mean_hc_global_conv_resnet18_pretrained_seed3407_20260901_184243",
+    "supp_p1_1_mean_mean_hc_global_conv_resnet18_pretrained_seed42_20260901_174556",
+    "supp_p1_1_sum_sum_hc_global_conv_resnet18_pretrained_seed2026_20260901_195731",
+    "supp_p1_1_sum_sum_hc_global_conv_resnet18_pretrained_seed3407_20260901_190122",
+    "supp_p1_1_sum_sum_hc_global_conv_resnet18_pretrained_seed42_20260901_180450",
+    "supp_p1_2_group2_localsk_hc_global_group2_resnet18_pretrained_seed2026_20260901_213209",
+    "supp_p1_2_group2_localsk_hc_global_group2_resnet18_pretrained_seed3407_20260901_205403",
+    "supp_p1_2_group2_localsk_hc_global_group2_resnet18_pretrained_seed42_20260901_201610",
+    "supp_p1_2_lowrank85_localsk_hc_global_lowrank85_resnet18_pretrained_seed2026_20260901_215057",
+    "supp_p1_2_lowrank85_localsk_hc_global_lowrank85_resnet18_pretrained_seed3407_20260901_211251",
+    "supp_p1_2_lowrank85_localsk_hc_global_lowrank85_resnet18_pretrained_seed42_20260901_203504",
+    "supp_p1_3_n1_phm_project_n1_seed2026_20260901_233209",
+    "supp_p1_3_n1_phm_project_n1_seed3407_20260901_225058",
+    "supp_p1_3_n1_phm_project_n1_seed42_20260901_220948",
+    "supp_p1_3_n4_phm_project_n4_seed2026_20260901_235110",
+    "supp_p1_3_n4_phm_project_n4_seed3407_20260901_231006",
+    "supp_p1_3_n4_phm_project_n4_seed42_20260901_222844"
+  ],
+  "excluded": [
+    {
+      "run_id": "amp_off_seed2026_phm_project_n2_seed2026_20260912_184340",
+      "reason": "Pilot or non-pretrained PIDNet; not in the manuscript main tables."
+    },
+    {
+      "run_id": "amp_off_seed3407_phm_project_n2_seed3407_20260912_181300",
+      "reason": "Pilot or non-pretrained PIDNet; not in the manuscript main tables."
+    },
+    {
+      "run_id": "amp_off_seed42_phm_project_n2_seed42_20260912_174228",
+      "reason": "Pilot or non-pretrained PIDNet; not in the manuscript main tables."
+    },
+    {
+      "run_id": "amp_on_seed2026_phm_project_n2_seed2026_20260912_183046",
+      "reason": "Pilot or non-pretrained PIDNet; not in the manuscript main tables."
+    },
+    {
+      "run_id": "amp_on_seed3407_phm_project_n2_seed3407_20260912_180011",
+      "reason": "Pilot or non-pretrained PIDNet; not in the manuscript main tables."
+    },
+    {
+      "run_id": "amp_on_seed42_phm_project_n2_seed42_20260912_172932",
+      "reason": "Pilot or non-pretrained PIDNet; not in the manuscript main tables."
+    },
+    {
+      "run_id": "exp001_phm_project_n2_seed42_20260727_123214",
+      "reason": "Pilot or non-pretrained PIDNet; not in the manuscript main tables."
+    },
+    {
+      "run_id": "exp002_phm_project_n2_seed67_20260727_134331",
+      "reason": "Pilot or non-pretrained PIDNet; not in the manuscript main tables."
+    },
+    {
+      "run_id": "exp006_pidnet_s_seed2026_20260803_070625",
+      "reason": "Pilot or non-pretrained PIDNet; not in the manuscript main tables."
+    },
+    {
+      "run_id": "exp006_pidnet_s_seed3407_20260803_064258",
+      "reason": "Pilot or non-pretrained PIDNet; not in the manuscript main tables."
+    },
+    {
+      "run_id": "exp006_pidnet_s_seed42_20260803_061934",
+      "reason": "Pilot or non-pretrained PIDNet; not in the manuscript main tables."
+    }
+  ]
+}

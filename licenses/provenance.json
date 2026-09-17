@@ -1,0 +1,99 @@
+{
+  "reference_date": "2026-09-17",
+  "components": [
+    {
+      "repository": "XuJiacong/PIDNet",
+      "reference_revision": "4c158cf24ce432f0a8cb43364fae38d93cee0dc3",
+      "category": "direct_source_match",
+      "local_files": [
+        "src/models/pidnet_official/pidnet.py",
+        "src/models/pidnet_official/model_utils.py"
+      ],
+      "license": "MIT",
+      "reference_files": [
+        {
+          "path": "models/model_utils.py",
+          "url": "https://raw.githubusercontent.com/XuJiacong/PIDNet/4c158cf24ce432f0a8cb43364fae38d93cee0dc3/models/model_utils.py",
+          "sha256": "8817f6367b4c9d094b35cd606926f2937cef98469fff888e3773c1c95ca969aa"
+        },
+        {
+          "path": "models/pidnet.py",
+          "url": "https://raw.githubusercontent.com/XuJiacong/PIDNet/4c158cf24ce432f0a8cb43364fae38d93cee0dc3/models/pidnet.py",
+          "sha256": "1692ebc05ea4cc7096abd0b9a2e7e79543d878955af1a9d3d60e7973d6eb623d"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/XuJiacong/PIDNet/4c158cf24ce432f0a8cb43364fae38d93cee0dc3/LICENSE",
+          "sha256": "e07b93980bc49ee3a99f61095208c426f592f54eaf501bf3f7ef5cd68120bd9b"
+        }
+      ],
+      "pre_attribution_source_sha256": {
+        "src/models/pidnet_official/pidnet.py": "1692ebc05ea4cc7096abd0b9a2e7e79543d878955af1a9d3d60e7973d6eb623d",
+        "src/models/pidnet_official/model_utils.py": "8817f6367b4c9d094b35cd606926f2937cef98469fff888e3773c1c95ca969aa"
+      }
+    },
+    {
+      "repository": "ydhongHIT/DDRNet",
+      "reference_revision": "de0db317c5af4b0946231f475cf74ca4f51b8ac2",
+      "category": "inherited_source_components",
+      "local_files": [
+        "src/models/pidnet_official/model_utils.py"
+      ],
+      "license": "MIT",
+      "reference_files": [
+        {
+          "path": "segmentation/DDRNet_23_slim.py",
+          "url": "https://raw.githubusercontent.com/ydhongHIT/DDRNet/de0db317c5af4b0946231f475cf74ca4f51b8ac2/segmentation/DDRNet_23_slim.py",
+          "sha256": "aaebccbc2b2cbea7e153165fe71848879a18e305c82fa3f1bd3dc7f7bea0637f"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/ydhongHIT/DDRNet/de0db317c5af4b0946231f475cf74ca4f51b8ac2/LICENSE",
+          "sha256": "c3198944e678fdc60d0febd75f052d9279ca2c5f76488fcb5d34895b1c122acb"
+        }
+      ]
+    },
+    {
+      "repository": "HRNet/HRNet-Semantic-Segmentation",
+      "reference_revision": "0bbb2880446ddff2d78f8dd7e8c4c610151d5a51",
+      "category": "documented_upstream_lineage",
+      "local_files": [
+        "src/models/pidnet_official/model_utils.py"
+      ],
+      "license": "MIT",
+      "reference_files": [
+        {
+          "path": "lib/models/seg_hrnet.py",
+          "url": "https://raw.githubusercontent.com/HRNet/HRNet-Semantic-Segmentation/0bbb2880446ddff2d78f8dd7e8c4c610151d5a51/lib/models/seg_hrnet.py",
+          "sha256": "b9ab677e314056605ce5c508c98ca75a107479de339894a2a1b81d08bde087c3"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/HRNet/HRNet-Semantic-Segmentation/0bbb2880446ddff2d78f8dd7e8c4c610151d5a51/LICENSE",
+          "sha256": "f1f33c3bec144f048d1cbff4dcae8d47a28faf263930ce779c61a7f4913bf055"
+        }
+      ]
+    },
+    {
+      "repository": "houqb/CoordAttention",
+      "reference_revision": "7619bea9acbe260b3793833cc78cef3f124c8112",
+      "category": "structural_reference",
+      "local_files": [
+        "src/models/phm_project.py:CoordBranch"
+      ],
+      "license": "MIT",
+      "reference_files": [
+        {
+          "path": "coordatt.py",
+          "url": "https://raw.githubusercontent.com/houqb/CoordAttention/7619bea9acbe260b3793833cc78cef3f124c8112/coordatt.py",
+          "sha256": "c40cc881d0a23b64c886274a9d8df7d13f04b6ec4fc935c3b281a82998f9ebfc"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/houqb/CoordAttention/7619bea9acbe260b3793833cc78cef3f124c8112/LICENSE",
+          "sha256": "263948396d6a475a6f473644f223d1f78c499ae95dd89934db59fd7b62782e52"
+        }
+      ]
+    }
+  ]
+}

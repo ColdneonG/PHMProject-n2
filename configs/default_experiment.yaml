@@ -1,0 +1,52 @@
+experiment:
+  name: phm_project_n2
+  description: PHMProject-n2 liquid-level segmentation — default experiment settings.
+  exp_name: ""  # 留空则自动递增编号，指定则用作目录前缀
+
+paths:
+  root: data
+  out_dir: outputs          # 基础目录，实际输出在子目录 {out_dir}/expNNN_{model}_seed{seed}_{timestamp}/
+  checkpoint: checkpoints/best_model.pt
+  prediction_out_dir: predictions
+  evaluation_out_dir: evaluations
+  condition_csv: ""
+
+data:
+  input_size: 256
+  train_split: train
+  val_split: val
+  test_split: test
+
+training:
+  epochs: 50
+  patience: 0
+  min_delta: 0.0
+  batch_size: 16
+  eval_batch_size: 0        # 0 = 复用 batch_size
+  num_workers: 4
+  lr: 0.0003
+  weight_decay: 0.0001
+  threshold: 0.5
+  video_weight_power: 0.5
+  condition_weight_power: 0.5
+  small_weight: 2.0
+  device: cuda
+  amp: true
+  seed: 42
+
+model:
+  name: phm_project_n2
+  global_branch: avg
+  encoder: resnet18
+  encoder_output_stride: 8
+  aspp_out_ch: 256
+  decoder_ch: 256
+  low_ch: 48
+  rates: [12, 24, 36]
+  sk_reduction: 16
+  phm_n: 2
+
+notes:
+  - 训练/推理/评估的输出目录自动带时间戳，每次运行不复用旧目录。
+  - 目录格式: {out_dir}/expNNN_{model}_seed{seed}_{YYYYMMDD_HHMMSS}/
+  - train.py / predict.py / evaluate.py 通过命令行参数覆盖这些默认值。
